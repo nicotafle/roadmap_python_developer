@@ -2,8 +2,11 @@
 É a forma de suportar erros sem quebrar o código
 Existem muitos tipos de erros, alguns deles:
 ZeroDivisionError, TypeError, ValueError
+
+Estrutura e ordem de como tratar execptions
 1. try | 2. except | 3. finally
 """
+### EXCEPTIONS ###
 
 # print(10/0) Descomenta para ZeroDivisionError
 try:
@@ -40,9 +43,11 @@ def division():
 
 division()
 
+### RAISE ###
+
 """
 ————— É possivel criar uma exception —————
-quando é precisso "romper" o código por não aceitar valores ou tipos
+quando é precisso "romper" o código por não aceitar valores ou tipos,
 é possível definir um raise
 """
 
