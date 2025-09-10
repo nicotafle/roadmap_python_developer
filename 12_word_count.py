@@ -22,4 +22,5 @@ def word_count():
     order_dict = {k:v for k, v in sorted(words_dict.items(), key=lambda item: item[1])}
     for key, value in order_dict.items():
         print(f"{key} : {value}")
+
 word_count()
